@@ -139,7 +139,8 @@ svg {
 		margin: 25px 0;
 	}
 
-	button:hover {
+	button:hover,
+	button:focus {
 		background-color: hsl(158, 48%, 18%);
 		cursor: pointer;
 	}
