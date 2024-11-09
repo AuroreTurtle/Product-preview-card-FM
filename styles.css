@@ -31,6 +31,7 @@ h1 {
 	font-weight: 700;
 	margin-top: 10px;
 	margin-bottom: 15px;
+	line-height: 1;
 }
 
 p,
@@ -47,6 +48,10 @@ button {
 	text-transform: uppercase;
 	font-size: 12px;
 	letter-spacing: 5px;
+}
+
+.card-text {
+	line-height: 1.6;
 }
 
 .card-price {
@@ -93,4 +98,18 @@ svg {
 
 .attribution a {
 	text-decoration: none;
+}
+
+/* Tablet */
+@media (min-width: 48em) {
+	.card {
+		display: flex;
+		margin: 50px;
+	}
+
+	.card-image {
+		width: 50%;
+		height: 315px;
+		border-radius: 10px 0 0 10px;
+	}
 }
