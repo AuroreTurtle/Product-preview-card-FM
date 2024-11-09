@@ -113,3 +113,59 @@ svg {
 		border-radius: 10px 0 0 10px;
 	}
 }
+
+/* Desktop */
+@media (min-width: 64em) {
+	.card {
+		margin: 95px 205px;
+	}
+
+	.card-image {
+		width: 50%;
+		height: 100%;
+		object-fit: contain;
+	}
+
+	.card-body {
+		padding: 30px;
+	}
+
+	h1 {
+		margin-top: 20px;
+		margin-bottom: 25px;
+	}
+
+	.card-price {
+		margin: 25px 0;
+	}
+
+	button:hover {
+		background-color: hsl(158, 48%, 18%);
+		cursor: pointer;
+	}
+}
+
+@media (min-width: 90em) {
+	.card {
+		margin: 150px 420px;
+	}
+}
+
+@media (min-width: 160em) {
+	.card {
+		margin: 350px 900px;
+	}
+
+	.card-body {
+		padding: 50px;
+	}
+
+	h1 {
+		margin-top: 40px;
+		margin-bottom: 45px;
+	}
+
+	.card-price {
+		margin: 55px 0;
+	}
+}
